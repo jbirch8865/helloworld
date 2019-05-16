@@ -1,9 +1,9 @@
 <?php 
 namespace HelloWorld;
-class SayHello
+class Hello
 {
-    public static function world()
+    public function say($toSay = "Nothing given")
     {
-        return 'Hello World, Composer!';
+        return $toSay;
     }
 }
